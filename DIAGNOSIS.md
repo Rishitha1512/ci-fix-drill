@@ -4,9 +4,9 @@
 
 - **Step:** Run tests  
 - **Error:**  
-  "Expected: X, Received: Y"  
+  "Expected: 100, Received: 90"
 - **Cause:**  
-  The test assertion is incorrect. The expected value in the test does not match the actual output of the function. This causes Jest to fail the test.
+  The test assertion was incorrect. The function correctly applied a 10% discount, returning 90, but the test expected 100. The issue was in the test, not the function logic.
 
 ---
 
